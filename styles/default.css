@@ -101,6 +101,10 @@ main p{
   font-size: 18px;
 }
 
+main a:visited{
+  color: var(--double-spanish-white); 
+}
+
 /* Footer */
 footer {
   font-size: 16px;
