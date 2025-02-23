@@ -25,7 +25,7 @@ h1{
 h2, h3{
   font-family: Arial, sans-serif;
   text-align: center;
-  color: black;
+  color: var(--misty-rose);
 }
 
 /* Header */
@@ -57,6 +57,7 @@ main a{
   font-size: 18px;
   color: white;
 }
+
 main a:visited{
   color: white; 
 }
