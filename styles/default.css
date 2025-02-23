@@ -66,18 +66,12 @@ footer {
   font-size: 16px;
   text-align: center;
   padding: 5px;
-  color: var(--dark-purple);
   background-color: var(--wisteria);
 }
 
-footer nav ul {
-  list-style: none;
-  padding: 0;
+footer p{
+  color: var(--dark-purple);
 }
 
-footer nav li {
-  display: inline;
-  margin: 0 5px;
-}
 
 
