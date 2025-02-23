@@ -1,51 +1,38 @@
 /* Global Styles */
 :root {
 /* CSS HEX */
---liver: #725752ff;
---battleship-gray: #878e88ff;
---cambridge-blue: #96c0b7ff;
---beige: #d4dfc7ff;
---lemon-chiffon: #fef6c9ff;
+--white: #ffffffff;
+--dark-purple: #412234ff;
+--english-violet: #6d466bff;
+--wisteria: #b49fccff;
+--misty-rose: #ead7d7ff;
 }
 
 /* General Styles */
 body {
-  background-color: var(--cambridge-blue);
+  background-color: var(--english-violet);
   font-family: Georgia, serif;
-  color: var(--liver);
   margin: 0;
   padding: 0;
 }
 
-h1, h2, h3 {
+h1{
   font-family: Arial, sans-serif;
   text-align: center;
-  color: var(--lemon-chiffon);
+  color: var(--dark-purple);
 }
 
+h2, h3{
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: black;
+}
 
 /* Header */
 header {
-  background-color: var(--battleship-gray);
+  background-color: var(--wisteria);
   padding: 20px;
   text-align: center;
-}
-
-header nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-header nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-header nav li {
-  padding: 10px;
 }
 
 /* Main */
@@ -62,16 +49,16 @@ p {
 main p{
   text-align: left;
   font-size: 18px;
-  color: var(--liver);
+  color: white;
 }
 
 main a{
   text-align: center;
   font-size: 18px;
-  color: var(--liver);
+  color: white;
 }
 main a:visited{
-  color: var(--liver); 
+  color: white; 
 }
 
 /* Footer */
@@ -79,8 +66,8 @@ footer {
   font-size: 16px;
   text-align: center;
   padding: 5px;
-  color: var(--lemon-chiffon);
-  background-color: var(--battleship-gray);
+  color: var(--dark-purple);
+  background-color: var(--wisteria);
 }
 
 footer nav ul {
