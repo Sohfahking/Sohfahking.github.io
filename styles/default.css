@@ -12,10 +12,11 @@
 
 html, body {
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   font-family: Georgia, serif;
+  width: 100%;
 }
 
 
@@ -44,12 +45,14 @@ main {
   text-align: center;
   background-color: var(--english-violet);
   flex: 1;
-  padding-bottom: 20px; /* Optional: Adds some space above the footer */
+  width: 100%;
 }
  
-p { 
+p {
+  display: inline-block;
   padding: 10px;
   border-radius: 5px;
+  width: 80%;
 }
 
 main p{
