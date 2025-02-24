@@ -9,12 +9,15 @@
 }
 
 /* General Styles */
-body {
-  background-color: var(--english-violet);
-  font-family: Georgia, serif;
+
+html, body {
+  height: 100%;
   margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, serif;
 }
+
 
 h1{
   font-family: Arial, sans-serif;
@@ -39,6 +42,9 @@ header {
 main {
   padding: 20px;
   text-align: center;
+  background-color: var(--english-violet);
+  flex: 1;
+  padding-bottom: 20px; /* Optional: Adds some space above the footer */
 }
  
 p { 
